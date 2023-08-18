@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>iMaGe ReCoGnItIoN</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <center> 
+<h1 class=" HeAdInG">Image recognition</h1>
+<h4>Model is trained for following expressons:</h4>
+<label class="o">happy</label>
+<hr>
+<label class="o">sad</label>
+<hr>
+<label class="o">angry</label>
+<hr>
+<label class="o">surpriesed</label>
+<hr>
+<h3>Webcam view</h3>
+
+<div id="cAMERA" ></div>
+<div id="result"></div>
+<br>
+<br>
+<button class="btn btn-info" onclick="takeSnapshot()">capture image</button>
+<br>
+<br>
+<button class="btn btn-primary" onclick= "check()">identify image</button>
+<br>
+<br>
+<h2 class="oe">emotion: <span id="object_result">    </span></h2> 
+<h2 class="oe">Accuracy: <span id="accuracy_result">    </span></h2>
+</center>
+<script src="main.js"></script>
+</body>
+</html>

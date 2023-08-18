@@ -1,0 +1,29 @@
+.HeAdInG {
+    width:80%;
+    color:whitesmoke; 
+    font-size: 30px;
+   background-color: red; 
+   padding:10px; 
+ }
+ 
+ body {
+   background-color:#05f521 ;  
+ }
+ 
+ #cAMERA {
+     width: 300px;
+     height: 300px;
+     border-color:cyan;
+     border-style:groove;
+     border-width:5px;
+ }
+ 
+ .oe {
+   font-weight:bold ;
+ }
+ 
+ .o{
+   color: aquamarine;
+   font-style: oblique;
+   font-size: larger;
+ }
